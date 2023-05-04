@@ -46,17 +46,17 @@ namespace AutomationApp
         {
             int temp = Convert.ToInt32(input);
             label_out_put.Text += input + "\n";
-            if(input == "5") 
+            if (input == "5")
             {
                 countFive++;
                 countTwo = 0;
             }
-            if(input == "2")
+            if (input == "2")
             {
                 countTwo++;
                 countFive = 0;
             }
-            if(input == "2" || input == "5") 
+            if (input == "2" || input == "5")
             {
                 MessageBox.Show(countTwo.ToString() + " " + countFive.ToString());
                 if (countTwo > 3)
@@ -88,6 +88,7 @@ namespace AutomationApp
                     label_out_put.Text += "радуется" + "\n";
                 }
             }
-        
+
+        }
     }
 }
